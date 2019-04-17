@@ -1,7 +1,7 @@
 extends ../../layout/index.jade
 
 block styles
-  link(rel='stylesheet', href=(locale == 'fa')?'/site-rtl.css':'/site.css')
+  link(rel='stylesheet', href=(locale == 'fa' || locale == 'ar')?'/site-rtl.css':'/site.css')
 
 block content
   #root
